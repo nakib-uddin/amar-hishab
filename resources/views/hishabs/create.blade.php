@@ -20,7 +20,7 @@
                 </ul>
             @endif
         </div>
-        <form action="{{ route('hishab.store') }}" method="post" class="max-w-md mx-auto">
+        <fo rm action="{{ route('hishab.store') }}" method="post" class="max-w-md mx-auto">
             @csrf
             @method('post')
 
@@ -50,7 +50,7 @@
                     Save
                 </button>
             </div>
-        </form>
+        </fo>
     </div>
 </body>
 </html>

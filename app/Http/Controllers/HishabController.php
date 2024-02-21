@@ -28,7 +28,7 @@ class HishabController extends Controller
     public function create()
     {
         if (Auth::check()) {
-            $datas = Category::pluck( 'name','type');
+            $datas = Category::pluck( 'name','type','id');
             return view('hishabs.create', compact('datas'));
         }
         
